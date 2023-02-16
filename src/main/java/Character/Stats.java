@@ -1,3 +1,5 @@
+package Character;
+
 public class Stats {
     private int health;
     private int attack;

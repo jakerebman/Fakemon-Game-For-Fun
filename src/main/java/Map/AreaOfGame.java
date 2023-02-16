@@ -1,19 +1,21 @@
-public class AreaOfGame {
-    final private int[][] gameArea;
+package Map;
 
-    public AreaOfGame(){
-        this.gameArea = new int[10][10];
+import java.util.List;
+
+public class AreaOfGame {
+    final private List<List<Tile>> gameArea;
+
+    public AreaOfGame(List<List<Tile>> gameArea){
+        this.gameArea = gameArea;
     }
 
     public void placeCharacterInGameArea(){
 
     }
 
-    public
-
     public void moveSpotsOnGameArea(String direction){
         if(direction.equalsIgnoreCase("up")){
-            this.gameArea
+
         }
     }
 }

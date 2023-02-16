@@ -1,3 +1,5 @@
+package Character;
+
 public class Attacks {
     private String punch;
     private String strongPunch;
